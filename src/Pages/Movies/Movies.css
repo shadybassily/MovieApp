@@ -1,0 +1,29 @@
+.movie-card{
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 5px;
+    height: 80%;
+    transition: 0.8s;
+    object-fit: cover;
+}
+
+.movie-card:hover{
+    box-shadow: 20px 20px 50px #e74c3c;
+    height: 100%;
+    transition: 0.8s;
+
+}
+
+.movie-card-background{
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 5px;
+    height: 80%;
+    transition: 0.8s;
+}
+
+.heart-gray{
+    color: gray !important;
+}
+
+.heart-red{
+    color: red !important;
+}
